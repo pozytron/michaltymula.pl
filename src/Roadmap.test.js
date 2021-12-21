@@ -13,10 +13,8 @@ describe('Roadmap section testing', () => {
 		//Arrange
 		const onUpdateCallbackMock = jest.fn();
 		render(<Roadmap data={initialData} onUpdate={onUpdateCallbackMock}/>);
-
 		//Act
 		const sectionTitle = screen.getByText(/following roadmap/i);
-
 		//Assert
 		expect(sectionTitle).toBeInTheDocument();
 	});

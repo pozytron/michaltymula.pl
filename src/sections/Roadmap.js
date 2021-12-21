@@ -7,7 +7,6 @@ export function Roadmap({data, onUpdate}) {
 			<h2>Following Roadmap</h2>
 			<button onClick={()=>onUpdate()}>Update Tree</button>
 			<TreeChart data={data} />
-
 		</>
 	);
 }

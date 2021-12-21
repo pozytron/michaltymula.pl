@@ -1,6 +1,6 @@
 import {render, screen} from '@testing-library/react';
-import {initialData} from "./mocks/roadmap";
-import {Roadmap} from "./sections/Roadmap";
+import {initialData} from "../../mocks/roadmap";
+import {Roadmap} from "../Roadmap";
 import userEvent from "@testing-library/user-event";
 
 describe('Roadmap section testing', () => {
